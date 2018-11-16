@@ -7,7 +7,9 @@
 #define uint32_t unsigned long
 
 extern uint32_t time;
+extern uint8_t digits[4];
 void init_LED(void);
+uint8_t get_digit(uint8_t number);
 uint32_t get_time();
 void print_LED_DEC(uint16_t number);
 
